@@ -1,6 +1,6 @@
 async function sendMessageToDiscord() {
   try {
-    const webhookURL = 'https://discord.com/api/webhooks/1206678283027222548/lJWl23BabL9GH7uvhlbmUChWOZ8rgdOHk_4qDKAcR9Nk3UY8RFEZsuACO0TBk7VJxjst';
+    const webhookURL = ''//webhook;
     await sendMessage(webhookURL);
     alert('Message sent to Discord server!');
   } catch (error) {
